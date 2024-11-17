@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="loadDataBtn">Load Names</button>
+    <ul id="nameList"></ul>
+
+    <h1>Fetch Data from API</h1>
+    <button id="fetchDataBtn">Fetch Data</button>
+
+    <h1>Update User Data</h1>
+    <button id="updateUserBtn">Update User</button>
+
+    <h1>Create New User</h1>
+    <button id="createUserBtn">Create User</button>
+
+    <h1>Data Table</h1>
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Rows will be inserted here -->
+      </tbody>
+    </table>
+
+    <h1>API Request Demo</h1>
+
+    <!-- Input field for user input -->
+    <input type="text" id="userInput" placeholder="Enter something..." />
+
+    <!-- Button to trigger the API request -->
+    <button onclick="makeApiRequest()">Get Data</button>
+
+    <!-- Placeholder for displaying the result -->
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
